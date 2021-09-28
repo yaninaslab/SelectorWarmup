@@ -1,0 +1,21 @@
+img {
+    width: 50%;
+    border-radius: 50%;
+}
+#main-image {
+    box-shadow: 3px 3px 10px black;
+    filter: contrast(130%);
+}
+.main-title {
+    text-shadow: 2px 2px lightskyblue;
+  }
+  h1~p {
+    box-shadow: 3px 3px 6px lightslategray;
+  }
+  h1:hover {
+      background-color: lightsteelblue;
+      display: inline;
+  }
+  #main-image:active {
+    width: 500px;
+  }
